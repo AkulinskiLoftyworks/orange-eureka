@@ -9,11 +9,11 @@
  * - Provide a way to execute all queued tasks and gather results.
  */
 class TaskQueue {
-    add(task) {
-    }
-  
-    async runAll() {
-    }
+  add(task) {
   }
   
-  module.exports = TaskQueue;
+  async runAll() {
+  }
+}
+  
+module.exports = TaskQueue;
