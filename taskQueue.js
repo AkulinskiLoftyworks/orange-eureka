@@ -8,4 +8,12 @@
  * - Use exponential backoff between retries (e.g., 100ms, 200ms, 300ms...).
  * - Provide a way to execute all queued tasks and gather results.
  */
+class TaskQueue {
+    add(task) {
+    }
   
+    async runAll() {
+    }
+  }
+  
+  module.exports = TaskQueue;
